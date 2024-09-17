@@ -5,6 +5,20 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
+    flex-direction: column;
+
+}
+
+button {
+    background-color: aqua;
+    height: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    &:hover{
+        background-color: #006492;
+        height: 32px;
+        width: 85px;
+    }
 }
 
 .container {
